@@ -1,5 +1,13 @@
 package com.chamlabs.restfultesting.client;
 
+/**
+ * Copyright (c) 2019, ChamLabs.
+ * Responsible: cham6
+ * @author cham6
+ * @email: paperplanes.chandra@gmail.com
+ * @fork: https://github.com/cham6/restfultesting.git
+ */
+
 import junit.framework.TestCase;
 
 import com.chamlabs.restfulservices.client.RestClient;
@@ -28,6 +36,9 @@ public class RestClientTester extends TestCase {
     private static final Integer PORT2 = 9099;
     private static final Integer PORT3 = 9097;
 	
+    public RestClientTester() {
+    	System.out.println("Starting the test RestClientTester");
+    }
     /**
      * Junit test to validate the GET request from RestClient
      * Steps:
@@ -115,7 +126,7 @@ public class RestClientTester extends TestCase {
 		}
 	}
 	
-	/**
+/**
      * Junit test to validate the POST request with body and headers from RestClient
      * Steps:
      * 		1) Create a stub server using Restito framework and configure it to listen on given port
