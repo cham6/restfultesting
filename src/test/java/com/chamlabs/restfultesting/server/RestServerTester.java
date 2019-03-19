@@ -1,5 +1,13 @@
 package com.chamlabs.restfultesting.server;
 
+/**
+ * Copyright (c) 2019, ChamLabs.
+ * Responsible: cham6
+ * @author cham6
+ * @email: paperplanes.chandra@gmail.com
+ * @fork: https://github.com/cham6/restfultesting.git
+ */
+
 import junit.framework.TestCase;
 import com.chamlabs.restfulservices.server.RestServer;
 import com.jayway.restassured.response.ResponseBody;
@@ -7,6 +15,11 @@ import static com.jayway.restassured.RestAssured.given;
 
 import org.json.JSONObject;
 
+/**
+ * Test Class to test the Rest Server that exposes a Rest API 
+ * @author ChaM
+ *
+ */
 public class RestServerTester extends TestCase {
 
 	private static int PORT = 9080; 
@@ -55,6 +68,4 @@ public class RestServerTester extends TestCase {
 			RestServer.stopService();
 		}
 	}
-	
-	
 }
