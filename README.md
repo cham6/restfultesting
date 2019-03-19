@@ -1,7 +1,7 @@
 # restfultesting
 Project to help QA engineers understand the REST API services' testing. REST stands for "REpresentational State Transfer".
 
-Time for some basics first.. Grab some popcorn and start reading. 
+Time for some basics first.. Grab some coffee and start reading. 
 
 # What is REST Client: 
 A method or a tool to invoke a REST service API that is exposed for communication by any system or service provider. For example: If an API is exposed to get the real time traffic information about a route from Google, the software/tool that invokes the Google traffic API is called the Rest client.
