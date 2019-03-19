@@ -22,7 +22,9 @@ import org.json.JSONObject;
  *
  */
 public class RestClient {
-		
+	/**
+	 * Constructor for the  class RestClient	
+	 */
 	public RestClient() {
 		System.out.println("Creating RestClient constructor");
 	}
