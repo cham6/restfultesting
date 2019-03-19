@@ -34,4 +34,4 @@ This project contains source and test modules for validating RestClients and Res
   
   >> RestAssured (com.jayway.restassured)
 
-
+Disclaimer: Please note, this is not a framework for your rest services' testing. But I am positive that this will help you understand the details on how to use different frameworks to get your RestFul services tested, seamlessly.
